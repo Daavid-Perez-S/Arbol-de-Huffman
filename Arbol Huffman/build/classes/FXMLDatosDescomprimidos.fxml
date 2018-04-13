@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDatosDescomprimidosController">
+   <children>
+      <Button fx:id="botonInicio" layoutX="41.0" layoutY="29.0" mnemonicParsing="false" onAction="#inicio" text="Inicio" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="365.0" layoutY="121.0" text="Tabla de BitCodes">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="121.0" text="Tabla de Datos Originales">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="tablaDeBitCodes" editable="false" layoutX="317.0" layoutY="166.0" prefHeight="370.0" prefWidth="223.0" promptText="Tabla de BitCodes..." />
+      <TextArea fx:id="tablaDeDatosOriginales" editable="false" layoutX="60.0" layoutY="166.0" prefHeight="370.0" prefWidth="211.0" promptText="Tabla de Datos Originales..." />
+      <Label layoutX="274.0" layoutY="44.0" text="Datos">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="14.0" text="Árbol de Huffman">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

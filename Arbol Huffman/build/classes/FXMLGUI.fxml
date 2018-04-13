@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLGUIController">
+   <children>
+      <Label layoutX="192.0" layoutY="21.0" text="Árbol de Huffman">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="escribirFXML" layoutX="38.0" layoutY="82.0" mnemonicParsing="false" text="Escribir texto">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </RadioButton>
+      <RadioButton fx:id="seleccionarFXML" layoutX="38.0" layoutY="247.0" mnemonicParsing="false" text="Seleccionar archivo">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </RadioButton>
+      <TextArea fx:id="escribirCuadroTexto" layoutX="59.0" layoutY="117.0" prefHeight="100.0" prefWidth="457.0" scrollTop="20.0" />
+      <Button fx:id="abrirArchivoFXML" layoutX="492.0" layoutY="290.0" mnemonicParsing="false" onAction="#abrirExplorador" text="...">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="rutaDelArchivoFXML" editable="false" layoutX="59.0" layoutY="287.0" prefHeight="30.0" prefWidth="401.0" promptText="Nombre de archivo..." />
+      <Button layoutX="220.0" layoutY="358.0" mnemonicParsing="false" onAction="#comprimir" text="Comprimir">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="botonInicio" layoutX="30.0" layoutY="21.0" mnemonicParsing="false" onAction="#inicio" text="Inicio">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

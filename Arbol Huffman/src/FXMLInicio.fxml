@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLInicioController">
+   <children>
+      <Label layoutX="126.0" layoutY="26.0" text="Árbol de Huffman">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="comprimir" layoutX="60.0" layoutY="178.0" mnemonicParsing="false" onAction="#comprimir" text="Comprimir">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="desComprimir" layoutX="250.0" layoutY="178.0" mnemonicParsing="false" onAction="#desComprimir" text="Descomprimir">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="20.0" layoutY="369.0" text="V. 3.0" />
+      <Label layoutX="250.0" layoutY="369.0" text="2018 © David Pérez S.   -   UP Chiapas" />
+   </children>
+</AnchorPane>
